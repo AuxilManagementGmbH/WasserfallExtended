@@ -14,7 +14,8 @@ Dem Visual können bis zu 10 Measures hinzugefügt werden. Für jedes Measure ka
 1. Balken handelt, der ab der Null Line beginnt.
 2. Balken handelt, der gestapelt wird und somit einen Hochlauf darstellt
 3. Ein Endbalken ist, der über dem vorherigen Balken dargestellt wird und die Wertigkeit des vorherigen Measures bis zum Ende einer Periode darstellt. (Jahr, Monat, Tag, etc)
-   
+
+
 Zusätzlich kann zu jedem gestapelten Balken definiert werden, ob die bisher "erstapelte" Höhe mit einem Balken dargestellt werden soll. (Summen Balken). Dies ist sehr praktisch, wenn zum Beispiel eine Übertragungsbrücke definiert werden soll. Beispiel: erster Balken ist das Jahresergebnis aus dem letzten Jahr. Im Anschluss kommen mehrere Balken, die die Abweichung zum Jahresendergebnis diesen Jahres darstellen. Anstatt aber den letzten Balken mit einem Measure zu berechnen, kann der Summenbalken definiert werden.
 
 ### Delta Model
