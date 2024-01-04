@@ -41,4 +41,99 @@ Ein Delta Next stellt den Unterschied zwischen einem Measure und dem übernächs
 ## Formatierungen
 Das Visuell kann umfangreich formatiert werden. Folgende Formatierungen sind möglich:
 
+### Visualisierungen
 
+#### X-Achse
+Die X-Achse ist die Null-Linie der Balken.
+
+Eingestellt werden kann:
+1. Anzeigen
+2. Farbe
+3. Linienbreite
+
+#### Linien
+Die Linien sind die Verbindungen zwischen den Balken. Ist ein Balken negativ, so beginnt die Verbindung am unteren Ende des Balkens. Ist der verbundene Balken negativ, endet die Verbindung am oberen Ende des nächsten Balkens. Ist ein Balken positiv, so beginnt die Verbindung am oberen Ende des Balkens. Ist der verbundene Balken positiv, endet die Verbindung am unteren Ende des nächsten Balkens. Verbindungen existieren nur in folgenden Konstellationen:  
+Balken - Delta
+Balken - Zwischenbalken
+Balken - Delta Next
+Delta - Balken
+Delta - Endbalken
+Delta Next - Balken
+Delta Next - Endbalken
+Delta Next - Zwischenbalken
+Zwischenbalken - Delta
+Zwischenbalken - Delta Next
+Zwischenbalken - Summenbalken
+Summenbalken - Delta
+Summenbalken - Delta Next
+Summenbalken - Zwischenbalken
+
+Eingestellt werden kann:
+1. Anzeigen
+2. Farbe
+3. Linienbreite
+
+#### Bar Zahlen
+Dies sind die Werte der Measures, sowie Summenbalken, Delta und Delta Next.
+
+Eingestellt werden kann:
+1. Anzeigen
+2. Position Wert Endbalken (Oben - Außerhalb, Mitte, Unten - Außerhalb, Auto)
+3. Position Wert Delta (Oben - Außerhalb, Mitte, Unten - Außerhalb, Auto)
+4. Position Wert Delta Next (Oben - Außerhalb, Mitte, Unten - Außerhalb, Auto)
+5. Abstand zum Balken
+6. Schriftart
+7. Schriftgröße
+8. Styling (Fett, Kursiv, Unterstrichen)
+9. Schriftfarbe (Funktion und Fix)
+
+#### Kategorien
+Die Kategorien sind die Namen der Measures und der Delta, Delta Next und Summenbalken. Diese werden immer unterhalb der Visualisierung dargestellt. 
+
+Eingestellt werden kann:
+1. Anzeigen
+5. Abstand zur X-Achse
+6. Schriftart
+7. Schriftgröße
+8. Styling (Fett, Kursiv, Unterstrichen)
+9. Schriftfarbe (Funktion und Fix)
+
+### Balken Einstellungen
+Für jedes Measure wird in diesem Abschnitt eine Gruppe erscheinen. In jeder Gruppe kann man die EInstellungen für das jeweilige Measure definieren.
+
+Eingestellt werden kann: 
+1. Typ des Balkens (Balken, Zwischenbalken, Endbalken)
+2. Ob der Balken ausgefüllt werden soll
+ 2.1. Farbe des Blakens (Funktion und Fix)
+3. Ob der Balken einen Rand haben soll
+ 3.1 Typ des Randes (Solide, Gepunktet)
+  3.1.1 Die Strichelungsart des Randes ( Tupel bestehend aus [Anteil Freiraum, Anteil Gefärbt])
+ 3.2 Dicke des Randes
+ 3.3 Farbe des Randes (Funktion und Fix)
+4. Position des Balkenwertes  (Oben - Außerhalb, Mitte, Unten - Außerhalb, Auto)
+5. Ob ein Summenbalken angezeigt werden soll
+ 5.1 Name des Balkens
+ 5.2 Ob der Summenbalken ausgefüllt werden soll (Funktion und Fix)
+ 5.3. Ob der Balken einen Rand haben soll
+  5.3.1 Typ des Randes (Solide, Gepunktet)
+   5.3.1.1 Die Strichelungsart des Randes ( Tupel bestehend aus [Anteil Freiraum, Anteil Gefärbt])
+  5.3.2 Dicke des Randes
+  5.3.3 Farbe des Randes (Funktion und Fix)
+6. Ob ein Delta hinzugefügt werden soll
+ 6.1 Name des Deltas
+  6.1.1 Farbe des Deltas wenn Positiv (Funktion und Fix)
+  6.1.2 Farbe des Deltas wenn Negativ (Funktion und Fix)
+ 6.2. Ob der Balken einen Rand haben soll
+  6.2.1 Typ des Randes (Solide, Gepunktet)
+   6.2.1.1 Die Strichelungsart des Randes ( Tupel bestehend aus [Anteil Freiraum, Anteil Gefärbt])
+  6.2.2 Dicke des Randes
+  6.2.3 Farbe des Randes (Funktion und Fix)
+7. Ob ein Delta Next hinzugefügt werden soll
+ 7.1 Name des Deltas
+  7.1.1 Farbe des Deltas wenn Positiv (Funktion und Fix)
+  7.1.2 Farbe des Deltas wenn Negativ (Funktion und Fix)
+ 7.2. Ob der Balken einen Rand haben soll
+  7.2.1 Typ des Randes (Solide, Gepunktet)
+   7.2.1.1 Die Strichelungsart des Randes ( Tupel bestehend aus [Anteil Freiraum, Anteil Gefärbt])
+7.2.2 Dicke des Randes
+7.2.3 Farbe des Randes (Funktion und Fix)
