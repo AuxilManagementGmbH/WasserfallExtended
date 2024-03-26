@@ -73,6 +73,14 @@ Eingestellt werden kann:
 2. Farbe
 3. Linienbreite
 
+#### Tooltips
+Hier können die Inhalte der Tooltips formatiert werden.
+
+Eingestellt werden kann:
+1. Formatierung der Zahlen
+2. Anzeigen von Prozenten für Delta Balken
+3. Wie die Prozente aussehen sollen
+
 #### Bar Zahlen
 Dies sind die Werte der Measures, sowie Summenbalken, Delta und Delta Next.
 
