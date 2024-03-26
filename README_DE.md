@@ -135,5 +135,7 @@ Eingestellt werden kann:
  7.2. Ob der Balken einen Rand haben soll
   7.2.1 Typ des Randes (Solide, Gepunktet)
    7.2.1.1 Die Strichelungsart des Randes ( Tupel bestehend aus [Anteil Freiraum, Anteil Gefärbt])
-7.2.2 Dicke des Randes
-7.2.3 Farbe des Randes (Funktion und Fix)
+  7.2.2 Dicke des Randes
+  7.2.3 Farbe des Randes (Funktion und Fix)
+ 7.3 Ob das Delta Next auf einem Delta platziert werden soll
+8. Ob der Balken sichtbar sein soll
