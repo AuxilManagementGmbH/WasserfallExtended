@@ -70,6 +70,14 @@ can be set:
 2. colour
 3. line width
 
+#### Tooltips
+Here you can change the way tooltips are presenting the data.
+
+The following can be set:
+1. Formatting of the number
+2. If you want to show a percentage number for delta bars
+3. How the formatting should look like
+
 #### Bar numbers
 These are the values of the measures, as well as the totals bar, delta and delta next.
 
@@ -79,10 +87,12 @@ The following can be set:
 3. position value Delta (Top - Outside, Centre, Bottom - Outside, Auto)
 4. position value delta next (top - outside, centre, bottom - outside, auto)
 5. distance to the bar
-6. font
-7. font size
-8. styling (bold, italic, underline)
-9. font colour (function and fixed)
+6. if a percentage number for delta bars should be shown
+7. formatting of the percentage
+8. font
+9. font size
+10. styling (bold, italic, underline)
+11. font colour (function and fixed)
 
 #### Categories
 The categories are the names of the measures and the delta, delta next and totals bars. These are always displayed below the visualisation. 
@@ -132,5 +142,7 @@ The following can be set:
  7.2 Whether the bar should have a border
   7.2.1 Type of border (solid, dotted)
    7.2.1.1 The stroke type of the border (tuple consisting of [proportion free space, proportion coloured])
-7.2.2 Thickness of the border
-7.2.3 Colour of the border (function and fixed)
+ 7.2.2 Thickness of the border
+ 7.2.3 Colour of the border (function and fixed)
+ 7.3 If the Next Bar should be on top of a delta bar
+8. If the bar should be visible
