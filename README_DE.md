@@ -90,10 +90,12 @@ Eingestellt werden kann:
 3. Position Wert Delta (Oben - Außerhalb, Mitte, Unten - Außerhalb, Auto)
 4. Position Wert Delta Next (Oben - Außerhalb, Mitte, Unten - Außerhalb, Auto)
 5. Abstand zum Balken
-6. Schriftart
-7. Schriftgröße
-8. Styling (Fett, Kursiv, Unterstrichen)
-9. Schriftfarbe (Funktion und Fix)
+6. Anzeigen eines prozentualen Wertes für Delta Balken
+7. Formatierung der prozentualen Zahlen
+7. Schriftart
+8. Schriftgröße
+9. Styling (Fett, Kursiv, Unterstrichen)
+10. Schriftfarbe (Funktion und Fix)
 
 #### Kategorien
 Die Kategorien sind die Namen der Measures und der Delta, Delta Next und Summenbalken. Diese werden immer unterhalb der Visualisierung dargestellt. 
